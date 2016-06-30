@@ -1,13 +1,10 @@
 <header class="site-header">
-    <div class="wrapper">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="wrapper" style="background-image: url({{'/assets/images/oregon_bridge.jpg' | prepend: site.baseurl}});">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> <br>
         <nav class="site-nav">
             <div class="trigger">
-            {% for page in site.pages %}
-                {% if page.title and page.url != '/404.html' %}
-                        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                {% endif %}
-            {% endfor %}
+              <a class="page-link" href="{{  '/about' | prepend: site.baseurl }}">About</a>
+              <a class="page-link" href="{{  '/archive' | prepend: site.baseurl }}">Blog Archive</a>
             </div>
         </nav>
     </div>
