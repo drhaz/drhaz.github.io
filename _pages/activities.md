@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Activities
-permalink: /activities
+title: My Activities
+permalink: /activities1
 ---
 
-This is a stub until I figure out how to create aestic drop down menues in Jekyll.
+Some summaries of my private activities.
 
-* [Traveling & Dining in Southern Arizona]({{site.baseurl}}/travelsoaz)
-* [Running around]({{site.baseurl}}/running)
-* [Photography]({{site.basaeurl}}/photography)
+<ul>
+{% for page in site.myactivities %}
+  <li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a><br>
+      {{ page.description }}
+ </li> 
+{% endfor %}
+</ul>

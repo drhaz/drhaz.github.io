@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Running around
-permalink: /running
+description: Summary of my running milestones, only a few races at this time
 ---
 
 To keep moving a bit, I have started to run (the only sport that currently fits into my current schedule), 
