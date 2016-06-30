@@ -5,7 +5,7 @@ github: drhaz
 
 markdown: kramdown
 
-baseurl: "http://localhost/~harbeck/drhaz.github.io/_site"
+#baseurl: "http://localhost/~harbeck/drhaz.github.io/_site"
 
 
 permalink: pretty
