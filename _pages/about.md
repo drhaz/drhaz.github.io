@@ -35,5 +35,5 @@ Where does "Cowjumping" come from?
 When I was at a meeting at [Ringberg Castle](http://www.schloss-ringberg.de/home) in Bavaria, I saw this mural 
 of a man jumping over a cow. It inspired me to claim the domain cowjumping. 
 Shortly after that meeting I moved to Wisconsin and learned about cow tipping.
-Apparently, there are many things you can do with cow other than eating.  
+Apparently, there are many things you can do with cows other than eating.  
 
