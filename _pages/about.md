@@ -23,7 +23,17 @@ Outside work
 I enjoy photography, running,  among other things.
 
 
-What is that brige in on top of the site?
+What is that bridge in on top of the site?
 ====
 
 The header image on this web page shows the Conde McCullough Memorial Bridge in Coos Bay, Oregon. The bridge symbolizes how we are building human  connections every day …  I simply like that picture, as I have very fond memories of my visits to Coos Bay. [Read more about that bridge on Wikipedia](https://en.wikipedia.org/wiki/Conde_McCullough_Memorial_Bridge).
+
+Where does "Cowjumping" come from?
+===
+
+![cowjumping mural](/assets/images/cowjumping.jpg){: .rightimage height="300px"}
+When I was at a meeting at [Ringberg Castle](http://www.schloss-ringberg.de/home) in Bavaria, I saw this mural 
+of a man jumping over a cow. It inspired me to claim the domain cowjumping. 
+Shortly after that meeting I moved to Wisconsin and learned about cow tipping.
+Apparently, there are many things you can do with cow other than eating.  
+
