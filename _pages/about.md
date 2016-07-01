@@ -26,7 +26,9 @@ I enjoy photography, running,  among other things.
 What is that bridge in on top of the site?
 ====
 
-The header image on this web page shows the Conde McCullough Memorial Bridge in Coos Bay, Oregon. The bridge symbolizes how we are building human  connections every day …  I simply like that picture, as I have very fond memories of my visits to Coos Bay. [Read more about that bridge on Wikipedia](https://en.wikipedia.org/wiki/Conde_McCullough_Memorial_Bridge).
+The header image on this web page shows the Conde McCullough Memorial Bridge 
+in Coos Bay, Oregon. ~~The bridge symbolizes how we are building human 
+ connections every day …~~  I simply like that picture, as I have very fond memories of my visits to Coos Bay. [Read more about that bridge on Wikipedia](https://en.wikipedia.org/wiki/Conde_McCullough_Memorial_Bridge).
 
 Where does "Cowjumping" come from?
 ===
