@@ -4,4 +4,3 @@ title: Publication List
 permalink: /publist
 ---
 
-{% bibliography %}
