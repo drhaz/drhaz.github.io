@@ -7,6 +7,8 @@ permalink: /about
 Daniel Harbeck, Ph.D.
 ----
 
+If you want to leave a message, please use to <a href="/_pages/contact"> contact form</a>. I can receive pgp encrypted emails. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
+
 Associate Scientist at the [WIYN Observatory](http://www.wiyn.org), in Tucson, AZ (USA)
 
 
