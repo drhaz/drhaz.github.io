@@ -73,18 +73,18 @@ def plotForFilter (filter, xterm, refmag=28):
     fig, ax = plt.subplots(1)
     fig.autofmt_xdate()
     ax.grid (True)
-    plt.plot (fdate, fmag, \".\")
+    plt.plot (fdate, fmag, ".")
     plt.ylim (-2,0.5)
-    plt.ylabel (\"dZP [e-/s], X=0\")
-    plt.title (\"Zeropint deviation for %s\" % (filter))
-    plt.savefig (\"odizp_%s.pdf\" % (filter))
+    plt.ylabel ("dZP [e-/s], X=0")
+    plt.title ("Zeropint deviation for %s" % (filter))
+    plt.savefig ("odizp_%s.pdf" % (filter))
     plt.show()
 </pre>
 
 And lastly, do some plots:  
 
 <pre>
-plotForFilter (\'odi_g\', 0.2, 26.7)
+plotForFilter ('odi_g', 0.2, 26.7)
 </pre>
 
 The output is a figure showing the relative photometric zeropoint, i.e., the throughput of the telescope and instrument,  over a 
