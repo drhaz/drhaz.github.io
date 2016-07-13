@@ -7,22 +7,23 @@ permalink: /about
 Daniel Harbeck, Ph.D.
 ----
 
+
+Associate Scientist at the [WIYN Observatory](http://www.wiyn.org), in Tucson, AZ (USA)  
+
 If you want to leave a message, please use to <a href="/_pages/contact"> contact form</a>. I can receive pgp encrypted emails. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
-
-Associate Scientist at the [WIYN Observatory](http://www.wiyn.org), in Tucson, AZ (USA)
-
 
 Professional activities:
 ====
 
 Main Interests: Astronomical instrumentation, observatory operations, data management software. Stellar populations as a tools to understand galaxy formation and evolution.
 
-At the WIYN Observatory, as Scientist for the One Degree Imager System I take care of instrument operations, managing hardware upgrades, and overseeing software development for the instrument and its data handling infrastructure.
+At the WIYN Observatory, as Scientist for the One Degree Imager System I take care of [instrument operations](http://www.wiyn.org/ODI), managing hardware upgrades, and overseeing software
+ development for the instrument and its data handling infrastructure.
 
 Outside work
 ====
 
-I enjoy photography, running,  among other things.
+I enjoy photography, running, among other things.
 
 
 What is that bridge in on top of the site?
