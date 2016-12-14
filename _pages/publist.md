@@ -6,7 +6,26 @@ permalink: /publist
 
 Query Results from the ADS Database below:
 
-Updated July 1 2016
+Updated December  2016
+
+P>Gopu, Arvind, Hayashi, Soichi, Young, Michael D., Kotulla, Ralf, Henschel, 
+Robert, &amp; Harbeck, Daniel 2016,  Society of Photo-Optical Instrumentation 
+Engineers (SPIE) Conference Series <A href="http://adsabs.harvard.edu/abs/2016SPIE.9913E..1HG">Trident: scalable compute archives: 
+workflows, visualization, and analysis</A> 
+
+
+<P>Orio, Marina, Luna, Gerardo, Zemko, Polina, Kotulla, Ralf, Gallagher, Jay, 
+&amp; Harbeck, Daniel 2016,  41st COSPAR Scientific Assembly, abstracts from 
+the meeting that was to be held 30 July - 7 August at the Istanbul Congress 
+Center (ICC), Turkey, but was cancelled. See &lt;A 
+href=&quot;http://cospar2016.tubitak.gov.tr/en/&quot;&gt;http://cospar2016.tubitak.gov.tr/en/&lt;/A&gt;, Abstract E1.10-17-16. <A href="http://adsabs.harvard.edu/abs/2016cosp...41E1479O">Be stars with white dwarf companions</A> 
+
+
+<P>Orio, Marina, Luna, Gerardo, Zemko, Polina, Kotulla, Ralf, Gallagher, Jay, 
+&amp; Harbeck, Daniel 2016,  41st COSPAR Scientific Assembly, abstracts from 
+the meeting that was to be held 30 July - 7 August at the Istanbul Congress 
+Center (ICC), Turkey, but was cancelled. See &lt;A 
+href=&quot;http://cospar2016.tubitak.gov.tr/en/&quot;&gt;http://cospar2016.tubitak.gov.tr/en/&lt;/A&gt;, Abstract E1.14-17-16. <A href="http://adsabs.harvard.edu/abs/2016cosp...41E1478O">Be stars with white dwarf companions: a new single degenerate binary channel to type Ia supernovae explosions</A> 
 
 
 <P>Young, M. D., Hayashi, S., Gopu, A., Kotulla, R., Harbeck, D., &amp; Liu, W. 
