@@ -8,7 +8,7 @@ Query Results from the ADS Database below:
 
 Updated December  2016
 
-P>Gopu, Arvind, Hayashi, Soichi, Young, Michael D., Kotulla, Ralf, Henschel, 
+<P>Gopu, Arvind, Hayashi, Soichi, Young, Michael D., Kotulla, Ralf, Henschel, 
 Robert, &amp; Harbeck, Daniel 2016,  Society of Photo-Optical Instrumentation 
 Engineers (SPIE) Conference Series <A href="http://adsabs.harvard.edu/abs/2016SPIE.9913E..1HG">Trident: scalable compute archives: 
 workflows, visualization, and analysis</A> 
