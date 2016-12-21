@@ -2,6 +2,7 @@
 layout: post
 title: "Suppressing pupil ghost and other internal reflections in the WIYN One Degree Imager"
 date: 2016-12-21
+comments: true
 
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 description:  Leave a message
+comments: false
 ---
 
 Please leave a message below.<br>
