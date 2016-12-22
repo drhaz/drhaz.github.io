@@ -43,6 +43,9 @@ collections:
   myactivities:
     output: true   
     permalink: /myactivities/:path/
+  photography:
+    output: true   
+    permalink: /photography/:path/
 
 scholar:
   style: assets/bib/_ieee-with-url.csl
