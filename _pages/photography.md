@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photography
-permalink: /photography1
+permalink: /photography
 ---
 
 Taking pictures everywhere

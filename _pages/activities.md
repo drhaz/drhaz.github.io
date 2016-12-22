@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Activities
-permalink: /activities1
+permalink: /activities
 ---
 
 Some summaries of my private activities.
