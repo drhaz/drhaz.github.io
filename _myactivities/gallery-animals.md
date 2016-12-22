@@ -7,7 +7,8 @@ comments: True
 description: Some photography of wildlife
 ---
 
-I am starting to cobble together an image gallery of some wildlife photography I have done over the years. This page is work in progress.
+I am cobbling together images of wildlife I have taken over the years. Most of those 
+animals I met in Arizona, at Kitt Peak, Sabino Canyon, and the Catalina State park.
 
 
 <div>
