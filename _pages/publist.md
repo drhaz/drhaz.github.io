@@ -4,6 +4,15 @@ title: Publication List
 permalink: /publist
 ---
 
+Misc Publications
+---
+
+Dissertation (2003): <a href="assets/docs/dissertation_harbeck_2003.pdf">Chemical Inhomogeneities in the Old Stellar Populations of the Local Group</a>
+
+
+Papers
+---
+
 Query Results from the ADS Database below:
 
 Updated December  2016
