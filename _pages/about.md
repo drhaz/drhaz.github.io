@@ -15,7 +15,7 @@ If you want to leave a message, please use to <a href="/_pages/contact"> contact
 Professional activities:
 ====
 
-Main Interests: Astronomical instrumentation, observatory operations, data management software. Stellar populations as a tools to understand galaxy formation and evolution.
+Main Interests: Astronomical instrumentation, observatory operations, data management software. Stellar populations as a tools to understand galaxy formation and evolution. More recently: solar system asteroids, in particular active asteroids and near earth objects.
 
 At the WIYN Observatory, as Scientist for the One Degree Imager System I take care of [instrument operations](http://www.wiyn.org/ODI), managing hardware upgrades, and overseeing software
  development for the instrument and its data handling infrastructure.
