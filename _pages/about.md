@@ -8,7 +8,10 @@ Daniel Harbeck, Ph.D.
 ----
 
 
-Associate Scientist at the [WIYN Observatory](http://www.wiyn.org), in Tucson, AZ (USA)  
+Instrumentation Scientist at the [Las Cumbres Observatory](https://lco.global).
+
+Having just started in June, I try to make sense of a complex operation and stabilize the instrumentation suite. 
+
 
 If you want to leave a message, please use the <a href="/_pages/contact"> contact form</a>. I can receive pgp encrypted emails. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
 
@@ -17,8 +20,15 @@ Professional activities:
 
 Main Interests: Astronomical instrumentation, observatory operations, data management software. Stellar populations as a tools to understand galaxy formation and evolution. More recently: solar system asteroids, in particular active asteroids and near earth objects.
 
-At the WIYN Observatory, as Scientist for the One Degree Imager System I take care of [instrument operations](http://www.wiyn.org/ODI), managing hardware upgrades, and overseeing software
- development for the instrument and its data handling infrastructure.
+
+
+
+Prior Positions
+===
+
+* Associate Scientist at the [WIYN Observatory](http://www.wiyn.org), in Tucson, AZ (USA)\\
+ From 2005 to 2017, as Project and Instrument Scientist,  I took care of the development and operations of the [WIYN](www.wiyn.org) [One Degree Imager System](http://www.wiyn.org/ODI), first as project scientist, and later as project lead managing hardware upgrades, and overseeing software development for the instrument and its data handling infrastructure.
+
 
 Outside work
 ====
