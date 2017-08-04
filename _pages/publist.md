@@ -15,7 +15,9 @@ Papers
 
 Query Results from the ADS Database below:
 
-Updated December  2016
+Updated August 2017
+
+<P>Orio, Marina; Luna, G. J. M.; Kotulla, R.; Gallager, J. S.; Zampieri, L.; Mikolajewska, J.; Harbeck, D.; Bianchini, A.; Chiosi, E.; Della Valle, M.; de Martino, D.; Kaur, A.; Mapelli, M.; Munari, U.; Odendaal, A.; Trinchieri, G.; Wade, J.; Zemko, P. 2017, MNRAS 470, 2212 <a href="http://adsabs.harvard.edu/abs/2017MNRAS.470.2212O"> CXO J004318.8+412016, a steady supersoft X-ray source in M 31 </a>
 
 <P>Gopu, Arvind, Hayashi, Soichi, Young, Michael D., Kotulla, Ralf, Henschel, 
 Robert, &amp; Harbeck, Daniel 2016,  Society of Photo-Optical Instrumentation 
