@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oil films on Pacific Near Santa Barbara"
+title: "Oil Film Offshore Santa Barbara"
 date: 2017-11-18
 ---
 
