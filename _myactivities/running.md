@@ -25,12 +25,12 @@ way. Nevertheless, here we go, finally:
 
 * [Marana 5k](http://www.azroadrunners.org/results/detail/marana-5000-results-2017) March 19 2017: 5k @ 27:30 min.\\
   I was expecting much worse given my state of training, so I guess I am happy with this one. 
-* [Goleta Turkey Trott 4M](http://www.runsantabarbara.com/thanksgiving-4-miler/) Nov 23 2017: 4M @ 36:49 min.\\
+* [Goleta Turkey Trot 4M](http://www.runsantabarbara.com/thanksgiving-4-miler/) Nov 23 2017: 4M @ 36:49 min.\\
   Having picked up running again in California, this was my first local "race".
   Air quotes since this was more of a nice crowd running together than a 
   competitive race. My goal was to keep it under 40 minutes;  Garmin time /
   [Strava segment](https://www.strava.com/segments/6105454) says 36:49 min, my 
-  watch said 38:16 min, but that is me struggeling to get the name tag of my
-  bib at the end. Waiting for the official result... \\
+  watch said 38:16 min, but that is me struggling to get the name tag of my
+  bib at the end. Waiting for the official result... and [here it is:](http://results.active.com/events/thanksgiving-4-miler-2017--2/thanksgiving-4-miler-2017/expanded) 37:15 min. Pretty low in my age group :-). California is much fitter than Arizona. \\
   It was great to be there!
 
