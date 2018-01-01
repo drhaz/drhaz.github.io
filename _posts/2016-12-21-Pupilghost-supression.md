@@ -21,11 +21,11 @@ Reflections of the optical surfaces within [WIYN One Degree Imager (ODI)](http:/
 
 
 ![ODI pupil ghost formation and supression cartoon]({{Site.url}}/assets/images/2016/odishutterpupilghostsupression.png){: .center-image}
-Fig. 1 - *Formation of the pupil ghost in ODI: a light component entering the instrument from the telescope (from the right) reflects of the concave dewar window, and the converging beam reflects of the filter and will create an in-focus iamge of the telescope pupil.*
+Fig. 1 - *Formation of the pupil ghost in ODI: a light component entering the instrument from the telescope (from the right) reflects of the concave dewar window, and the converging beam reflects of the filter and will create an in-focus image of the telescope pupil.*
 
 
 ![Example of ODI pupil ghost]({{Site.url}}/assets/images/2016/odi_pupilghost_layerII.png){: .center-image}
-Fig. 2 - *Example of a flat field iamge taken with ODI in the UV.One can see the different sensitivities of small square iamge units (cells). Near the center is a donut-like structure that is an image of the telescope pupil. This additional pupil image is undesirable in a calibration image.*
+Fig. 2 - *Example of a flat field image taken with ODI in the UV.One can see the different sensitivities of small square image units (cells). Near the center is a donut-like structure that is an image of the telescope pupil. This additional pupil image is undesirable in a calibration image.*
 
 The excess light of the pupil ghost is undesirable for several reasons: In night-sky observations it will produce an extra background component, but it can be subtracted out. More severely, the pupil ghost also produces an extra light component in a calibrating flat field, and if not treated, would lead to a wrong sensitivity calibration in the affected areas. 
 
