@@ -24,7 +24,7 @@ In the login screen, we select "Browse Archive", and search for all "Operator Ca
 
 
 OK, this is a  long list of nearly 12000 images. I wanted the trends for all data ever taken with ODI, so I did not restrict the search. 
-The little "All..."  button above the search results wll reveal an export function, which allows us to download all the selected metadata
+The little "All..."  button above the search results will reveal an export function, which allows us to download all the selected metadata
  for all the 12000 images. Once we have that on our drive, and after a short vi session to rectify a few things here and there, we are
  ready for a data analysis session to look at any trends in the data.
 
