@@ -15,7 +15,61 @@ Papers
 
 Query Results from the ADS Database below:
 
-Updated August 2017
+Updated Jan 2019
+
+
+<P>Foale, Stephen, Bowman, Mark K., Nation, Jon S., Harbeck, Daniel R., &amp; 
+Siverd, Robert J. 2018,  Software and Cyberinfrastructure for Astronomy V 
+<A href="http://adsabs.harvard.edu/abs/2018SPIE10707E..0YF">Robotic acquisition of spectrograph targets across the Las Cumbres 
+Observatory global network of telescopes</A> 
+
+
+<P>McCully, Curtis, Volgenau, Nikolaus H., Harbeck, Daniel-Rolf, Lister, Tim 
+A., Saunders, Eric S., Turner, Monica L., Siiverd, Robert J., &amp; Bowman, 
+Mark 2018,  Software and Cyberinfrastructure for Astronomy V <A href="http://adsabs.harvard.edu/abs/2018SPIE10707E..0KM">Real-time 
+processing of the imaging data from the network of Las Cumbres Observatory 
+Telescopes using BANZAI</A> 
+
+
+<P>Harbeck, Daniel-Rolf, McCully, Curtis, Pickles, Andrew, Volgenau, 
+Nikolaus, Conway, Patrick, &amp; Taylor, Brook 2018,  Observatory Operations: 
+Strategies, Processes, and Systems VII <A href="http://adsabs.harvard.edu/abs/2018SPIE10704E..01H">Long-term monitoring of the 
+throughput in Las Cumbres Observatory's fleet of telescopes</A> 
+
+
+<P>Schwab, Christian, Liang, Ming, Gong, Qian, Bender, Chad, Blake, Cullen, 
+Halverson, Samuel, Harbeck, Daniel, Hearty, Fred, Hunting, Emily, Jaehnig, 
+Kurt P., Logsdon, Sarah E., Mahadevan, Suvrath, McElwain, Michael W., 
+Monson, Andrew J., Percival, Jeffrey W., Rajagopal, Jayadev, Ramsey, 
+Lawrence, Robertson, Paul M., Roy, Arpita, Santoro, Fernando, Smith, 
+Michael P., Terrien, Ryan C., Timmermann, Erik, Willems, Phil, Wolf, Marsha 
+J., &amp; Wright, Jason 2018,  Ground-based and Airborne Instrumentation for 
+Astronomy VII <A href="http://adsabs.harvard.edu/abs/2018SPIE10702E..71S">The NEID precision radial velocity spectrometer: optical 
+design of the port adapter and ADC</A> 
+
+
+<P>Percival, Jeffrey W., Gong, Qian, Harbeck, Daniel, Hunting, Emily, 
+Jaehnig, Kurt P., Liang, Ming, Logsdon, Sarah E., McElwain, Michael W., 
+Rajagopal, Jayadev, Schwab, Christian, Smith, Michael P., Timmermann, Erik, 
+&amp; Wolf, Marsha J. 2018,  Ground-based and Airborne Instrumentation for 
+Astronomy VII <A href="http://adsabs.harvard.edu/abs/2018SPIE10702E..6MP">The NEID precision radial velocity spectrometer: fast, 
+first-order wavefront correction</A> 
+
+
+<P>Siverd, Robert J., Brown, Timothy M., Barnes, Stuart, Bowman, Mark K., De 
+Vera, Jon, Foale, Stephen, Harbeck, Daniel-Rolf, Henderson, Todd, Hygelund, 
+John, Kirby, Annie, McCully, Curtis, Nation, Jon S., Smith, Cary, Taylor, 
+Brook, &amp; Tufts, Joseph R. 2018,  Ground-based and Airborne Instrumentation 
+for Astronomy VII <A href="http://adsabs.harvard.edu/abs/2018SPIE10702E..6CS">NRES: the network of robotic echelle spectrographs</A> 
+
+
+<P>Harbeck, Daniel R., Lesser, Mike, Liu, Wilson, Stupak, Bob, George, Ron, 
+Harris, Ron, Poczulp, Gary, Rajagopal, Jayadev, Kotulla, Ralf, Ouellete, 
+David, Hooper, Eric J., Smith, Michael, Mason, Dustin, Onaka, Peter, Chin, 
+Greg, Hunting, Emily, &amp; Christensen, Robert 2018,  Ground-based and 
+Airborne Instrumentation for Astronomy VII <A href="http://adsabs.harvard.edu/abs/2018SPIE10702E..29H">The WIYN one degree imager in 
+2018: an extended 30-detector focal plane</A> 
+
 
 <P>Orio, Marina; Luna, G. J. M.; Kotulla, R.; Gallager, J. S.; Zampieri, L.; Mikolajewska, J.; Harbeck, D.; Bianchini, A.; Chiosi, E.; Della Valle, M.; de Martino, D.; Kaur, A.; Mapelli, M.; Munari, U.; Odendaal, A.; Trinchieri, G.; Wade, J.; Zemko, P. 2017, MNRAS 470, 2212 <a href="http://adsabs.harvard.edu/abs/2017MNRAS.470.2212O"> CXO J004318.8+412016, a steady supersoft X-ray source in M 31 </a>
 
