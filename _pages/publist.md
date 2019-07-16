@@ -18,7 +18,7 @@ Query Results from the ADS Database below:
 Updated Jan 2019
 
 <P> Vanderburg, Andrew et al., including <b>Harbeck</b>, Daniel R. 2019, ApJ, in press.
-  <a href="https://arxiv.org/abs/1905.05193">TESS SPOTS A COMPACT SYSTEM OF SUPER-EARTHS AROUND THE NAKED-EYE STAR HR 858 </a>
+  <a href="https://arxiv.org/abs/1905.05193">TESS Spots a Compact System of Super-Earths around the Naked-Eye Star HR 858 </a>
 
 <P>Foale, Stephen, Bowman, Mark K., Nation, Jon S., <b>Harbeck</b>, Daniel R., &amp; 
 Siverd, Robert J. 2018,  Software and Cyberinfrastructure for Astronomy V 
