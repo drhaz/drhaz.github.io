@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rose hip Soup"
-date: 2019-05-01
+date: 2019-12-16
 ---
 
 A staple dish in our family is rose hip soup, which we usually serve only once a year for Christmas. It is a flavorful,  spiced, and
