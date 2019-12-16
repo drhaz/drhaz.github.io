@@ -33,7 +33,7 @@ Prior Positions
 Outside work
 ====
 
-I enjoy photography, running, among other things.
+I enjoy photography, running, sailing, and other things.
 
 
 What is that bridge in on top of the site?

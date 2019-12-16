@@ -9,26 +9,40 @@ Below are a few spots around Southern California were we find noteworthy.
 
 
 Coffee Spots
-====
+----
 
 * [Urth Caffe, in Pasadena](https://urthcaffe.com/caffe/locations/urth-pasadena)  
-  Amazing coffee and pastries. I would like to come back one day and try other foods there. 
+  Amazing coffee and pastries. I would like to come back one day and try other foods there. Tends to overfilled with people though.
 
 
 
 
 Dining
+----
+
+Torrance & Greater L.A.
 ====
 
-* [Yuzu in Torrance, CA]()  
-  1231 Cabrillo Ave #101, Torrance, CA 90501  
-  I would say the best Japanese restaurant I have been to in the USA. It is especially worthwhile to sit at 
-  the counter and watch the meals being prepared. Not cheap, and very much worth it. One needs to bring time
-  to enjoy and appreciate an evening here.
+* [Torihei Yakitori Robata Dining](http://torihei-usa.com/torihei.html) \\
+  1757 W. Carson st. Torrance, CA  310-781-9407\\
+  A excellent Japanese restaurant specializing in Yakitori and Oden. One of the best. Reservation highly recommended. 
+
+
+* [MANPUKO](http://www.manpukuus.com/torrance/)\\
+  1870 W. Carson St., Torrance, CA \\
+  The best Yakiniku place so far in the USA. While gyu-kaku is ok, this is a different leage. Expensive but worth it. 
+
+
+
+San Diego
+=====
 
 * [Tsuruhashi Japanese BBQ](http://places.singleplatform.com/tsuruhashi/menu) San Diego, Convoy St\\
   Nice, small scale Japanese BBQ place. I love the garlic slowly roasted in oil!
 
+
+General
+=====
 * [Gyu-Kaku](http://www.gyu-kaku.com/)  
   A Japanese BBQ chain with various places all over the US, in particular in California.  
 

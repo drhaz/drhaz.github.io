@@ -3,7 +3,7 @@ layout: page
 title: Nice spots in Southern Arizona
 description:  Dining and more active activities within reach from Tucson
 ---
-Below are a few spots around Southern Arizona were we like to go to. By its very nature, this list is highly biased, very subjective, and work in progress.
+Below are a few spots around Southern Arizona were we liked to go when we lived there. By its very nature, this list is highly biased, very subjective, and work in progress. 
 
 Coffee Spots
 ====
