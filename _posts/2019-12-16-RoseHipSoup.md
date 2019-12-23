@@ -4,6 +4,7 @@ title: "Rose hip Soup"
 date: 2019-12-16
 ---
 
+<span style="float: right; padding: 10px;"> <a href="/assets/images/2019/rosehip_soup.png"><img src="/assets/images/2019/rosehip_soup_small.png"/></a></span>
 A staple dish in our family is rose hip soup, which we usually serve only once a year for Christmas. It is a flavorful,  spiced, and
 sweetened soup that works well during the Holidays, but every year I wonder why we are not having it more often. It can be served as an
 appetizer for a meal, but in recent years we just made a big pot of it and simply ate soup for dinner.
