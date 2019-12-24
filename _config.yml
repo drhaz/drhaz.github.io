@@ -13,7 +13,7 @@ permalink: pretty
 sass:
     style: compressed
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-mentions
   - jekyll-paginate
