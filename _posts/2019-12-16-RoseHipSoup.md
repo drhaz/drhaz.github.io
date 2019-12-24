@@ -17,6 +17,7 @@ Ingredients
  * 2 liters water
  * Gluehweingewuerz
  * Cinnamon
+ * peel of one lemon
 
  * 2 table spoon replacement sugar (we use half Splenda / Monkfruit)
  * 2 table spoon sugar
@@ -24,7 +25,7 @@ Ingredients
  * 100-150 ml milk / cream mix
  * 1 tea spoon corn starch
  * Gluehweingewuerz
- * juice and peel of one lemon (maybe even a Mayer lemon)
+ * juice of one lemon (maybe even a Mayer lemon)
 
  * dry bread
  * butter
