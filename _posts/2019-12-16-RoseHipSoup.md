@@ -15,13 +15,15 @@ Ingredients
 
  * 250 g rose hips, seedless
  * 2 liters water
+ * Gluehweingewuerz
+ * Cinnamon
+
  * 2 table spoon replacement sugar (we use half Splenda / Monkfruit)
  * 2 table spoon sugar
  * 1/2 to 1 tea spoon salt
  * 100-150 ml milk / cream mix
  * 1 tea spoon corn starch
  * Gluehweingewuerz
- * Cinnamon
  * juice and peel of one lemon (maybe even a Mayer lemon)
 
  * dry bread
