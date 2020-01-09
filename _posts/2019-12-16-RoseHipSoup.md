@@ -2,6 +2,7 @@
 layout: post
 title: "Rose hip Soup"
 date: 2019-12-16
+comments: true
 ---
 
 <span style="float: right; padding: 10px;"> <a href="/assets/images/2019/rosehip_soup.png"><img src="/assets/images/2019/rosehip_soup_small.png"/></a></span>
