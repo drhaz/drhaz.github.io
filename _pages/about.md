@@ -10,8 +10,7 @@ Daniel Harbeck, Ph.D.
 
 Instrumentation Scientist at the [Las Cumbres Observatory](https://lco.global).
 
-Having just started in June, I try to make sense of a complex operation and stabilize the instrumentation suite. 
-
+Herding a bunch of CCD controllers, commissioning the NRES fleet of high resolution spectrographs, integrating the future  2 meter telescope instrument ( Muscat 3), and helping everywhere in the observatory as needed.
 
 If you want to leave a message, please use the <a href="/_pages/contact"> contact form</a>. I can receive pgp encrypted emails. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
 
