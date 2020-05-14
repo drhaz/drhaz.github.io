@@ -15,7 +15,7 @@ Papers
 
 Query Results from the ADS Database below:
 
-Updated July 2019
+Updated May 2020
 
 <P> Bedding, Timothy. R. et al, including <b>Harbeck, Daniel R.</b> 2020, Nature 581, 147 
   <a href="https://arxiv.org/abs/2005.06157"> Very regular high-frequency pulsation modes in young intermediate-mass stars </a>
