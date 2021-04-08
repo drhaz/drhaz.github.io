@@ -18,7 +18,7 @@ Query Results from the ADS Database below:
 Updated April 2021
 
 <P> Volgenau, N.; <b>Harbeck, D.</b>; Lister, T.; Conway, P.; Lindstrom, L. 2020, SPIE 11449, 1144929
-  <a href=https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11449/2561980/Improving-the-focus-of-Las-Cumbres-Observatorys-1-meter-telescopes/10.1117/12.2561980.short">Improving the focus of Las Cumbres Observatory’s 1-meter telescopes</a>
+  <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11449/2561980/Improving-the-focus-of-Las-Cumbres-Observatorys-1-meter-telescopes/10.1117/12.2561980.short">Improving the focus of Las Cumbres Observatory’s 1-meter telescopes</a>
 
 <P> Narita, Norio; Fukui, Akihiko; Yamamuro, Tomoyasu; <b>Harbeck, Daniel</b> et al., 2020, SPIE  11447, 114475
   <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11447/2559947/MuSCAT3--a-4-color-simultaneous-camera-for-the-2m/10.1117/12.2559947.short?SSO=1"> MuSCAT3: a 4-color simultaneous camera for the 2m Faulkes Telescope North </a>
