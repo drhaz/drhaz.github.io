@@ -14,7 +14,7 @@ Herding a bunch of CCD controllers, commissioning the NRES fleet of high resolut
 
 If you want to leave a message, I can receive pgp encrypted messages. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
 
-On Mastodon, I am <a rel="me" href="https://mastodon.social/@orangejacket">Mastodon</a>
+I also exist on <a rel="me" href="https://mastodon.social/@orangejacket">Mastodon</a>
 
 Professional activities:
 ====
