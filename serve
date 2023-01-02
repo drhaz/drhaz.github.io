@@ -1,6 +1,5 @@
-export JEKYLL_VERSION=latest
 docker run --rm \
   --volume="$PWD:/srv/jekyll" \
   -p 4000:4000\
-  -it jekyll/builder:$JEKYLL_VERSION \
-  jekyll  serve --verbose --watch --incremental --future
+  -it jekyll/builder:3.8 \
+  jekyll  serve --verbose --watch --incremental --future --drafts  --livereload --host 0.0.0.0
