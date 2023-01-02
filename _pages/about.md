@@ -12,7 +12,9 @@ Instrumentation Scientist at the [Las Cumbres Observatory](https://lco.global).
 
 Herding a bunch of CCD controllers, commissioning the NRES fleet of high resolution spectrographs, integrating the future  2 meter telescope instrument ( Muscat 3), and helping everywhere in the observatory as needed.
 
-If you want to leave a message, please use the <a href="/_pages/contact"> contact form</a>. I can receive pgp encrypted emails. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
+If you want to leave a message, I can receive pgp encrypted messages. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
+
+On Mastodon, I am <a rel="me" href="https://mastodon.social/@orangejacket">Mastodon</a>
 
 Professional activities:
 ====
