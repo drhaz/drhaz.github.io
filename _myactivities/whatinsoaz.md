@@ -4,6 +4,7 @@ title: Nice spots in Southern Arizona
 description:  Dining and more active activities within reach from Tucson
 ---
 Below are a few spots around Southern Arizona were we liked to go when we lived there. By its very nature, this list is highly biased, very subjective, and work in progress. 
+I left Tucson in 2017, and things have probably changed a lot during the pandemic. I.e., this list is most liekly obsolete. 
 
 Coffee Spots
 ====
