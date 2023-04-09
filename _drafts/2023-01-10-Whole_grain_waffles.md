@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Whole Grain Flour Heart Waffles"
-date: 2023-01-04
+date: 2023-04-01
 comments: false
 draft: True
 ---
@@ -11,7 +11,7 @@ Ingredients
 ===
 
  * 70 g butter
- * 20 to 30 g sugar, or half and half sugar / artificial sweetener. Adjust sweeteners level to your preference. 
+ * 20 to 30 g sugar, or half and half sugar / artificial sweetener. Adjust the sweetener level to your preference. 
  * A good pinch of salt
 
  * 2 eggs
@@ -26,7 +26,7 @@ Ingredients
  ===
  Let the butter be soft, i.e, microwave for a few seconds or remove it from the fridge in time early enough. Mix butter, sugar, and salt.
 
- Slowly, each time adding only a bit of liquid, add the 2 eggs, lemon juice, rum, and the milk. 
+ Slowly, each time adding only a bit of liquid, add the 2 eggs, lemon juice, rum, and milk. 
 
- Finally, mix the baking powder into the flour, and to the dough, and mix well. Let sit for a few minutes, and then bake in a waffle iron. 
+ Finally, mix the baking powder into the flour, and add to the dough, and mix well. Let sit for a few minutes, and then bake in a waffle iron. 
 
