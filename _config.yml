@@ -3,10 +3,6 @@ name: Daniel Harbeck
 email: drharbeck@gmail.com
 github: drhaz
 
-mastodon:
-- username: orange_jacket
-  instance: mastodon.social
-
 markdown: kramdown
 
 #baseurl: "http://localhost/~harbeck/drhaz.github.io/_site"
