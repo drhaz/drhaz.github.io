@@ -22,9 +22,10 @@ Ingredients
  * 125 g whole wheat flour
  * 1 teaspoon baking powder
 
- Preparation
- ===
- Let the butter be soft, i.e, microwave for a few seconds or remove it from the fridge in time early enough. Mix butter and sugar well. 
+Preparation
+===
+ 
+Let the butter be soft, i.e, microwave for a few seconds or remove it from the fridge in time early enough. Mix butter and sugar well. 
 
  Slowly, each time adding only a bit of liquid, add the 2 eggs, lemon juice, rum, and milk. 
 
