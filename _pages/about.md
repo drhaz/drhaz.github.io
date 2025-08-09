@@ -34,12 +34,7 @@ Main Interests: Astronomical instrumentation, observatory operations, data manag
 ## Outside work
 
 
-I enjoy photography, running, sailing, and other things.
-
-### Contact:
-If you want to leave a message, I can receive pgp encrypted messages. Feel free to fetch my <a href="/static/0BDD9EB4.asc"> pgp public key</a>.
-
-I also exist on <a rel="me" href="https://mastodon.social/@orangejacket">Mastodon</a>
+I enjoy photography, swimming, sailing, traveling, and many other things.
 
 
 ### What is that bridge on the top of the site?
