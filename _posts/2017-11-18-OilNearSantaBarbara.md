@@ -2,6 +2,7 @@
 layout: post
 title: "Oil Film Offshore Santa Barbara"
 date: 2017-11-18
+tags: Curious
 ---
 
 

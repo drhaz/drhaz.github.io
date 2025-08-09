@@ -6,6 +6,7 @@ permalink: /archive
 ---
 <div class="archive-header">
     <h2>Archives</h2>
+    
     <span class="icon toggle-search">{% include search.svg %} Search</span>
 </div>
 <div class="search">

@@ -13,6 +13,13 @@ layout: default
             <span itemprop="name">{{ page.author }}</span>
           </span>
        {% endif %}
+       {%- if page.tags -%}
+        {% for tag in page.tags %}
+        
+             #{{ tag }}
+        
+        {% endfor %}
+       {%- endif -%}
         | <span class="time">
             {{ page.content | number_of_words | divided_by:180 }}
           </span>
