@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding last year's SPIE papers"
-date: 2023-01-02
+date: 2026-05-15
 tags: [SPIE]
 
 ---
