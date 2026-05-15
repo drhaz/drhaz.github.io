@@ -6,10 +6,7 @@ permalink: /about
 
 **Daniel Harbeck, Ph.D.**
 
-Currently Head of Instrumentation at the [Las Cumbres Observatory](https://lco.global).
-
-Herding a bunch of CCD controllers, commissioning the NRES fleet of high-resolution spectrographs, integrating the future 2-meter telescope instrument (MuSCAT 3, 4), renewing the 0.4m telescope fleet, and helping everywhere in the observatory as needed.
-
+Currently Head of Instrumentation & Science Operations at the [Las Cumbres Observatory](https://lco.global).
 
 
 ## Professional activities:
@@ -34,7 +31,7 @@ Main Interests: Astronomical instrumentation, observatory operations, data manag
 ## Outside work
 
 
-I enjoy photography, swimming, sailing, traveling, and many other things.
+I enjoy photography, swimming, sailing, traveling, and many other things. Updating and writing on a personal web page .... not that much.
 
 
 ### What is that bridge on the top of the site?
