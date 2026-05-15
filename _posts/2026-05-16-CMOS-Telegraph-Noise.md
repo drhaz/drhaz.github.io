@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adding last year's SPIE papers"
+title: "Random Telegraph Noise in CMOS Detectors"
 date: 2026-05-15
 tags: [SPIE]
 
