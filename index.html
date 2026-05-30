@@ -1,28 +1,18 @@
 ---
-layout: default
+layout: none
+permalink: /
 ---
-
-<div class="home">
-  <h1 class="page-heading">Posts</h1>
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p class="description">
-            {% if post.description %}
-                {{ post.description | strip_html | strip_newlines | truncatewords: 100 }}
-            {% else %}
-                {{ post.content | strip_html | strip_newlines | truncatewords: 100 }}
-            {% endif %}</p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-{% if paginator.total_pages > 1 %}<!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %} <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="prev">Newer Posts</a> {% endif %}
-    {% if paginator.next_page %} <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Older Posts</a>{% endif %}
-  </div>{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redirecting to About</title>
+    <meta http-equiv="refresh" content="0; url=/about">
+    <link rel="canonical" href="/about">
+  </head>
+  <body>
+    <p>Redirecting to the <a href="/about">About page</a>...</p>
+  </body>
+</html>

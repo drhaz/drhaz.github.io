@@ -31,7 +31,7 @@ Main Interests: Astronomical instrumentation, observatory operations, data manag
 ## Outside work
 
 
-I enjoy photography, swimming, sailing, traveling, and many other things. Updating and writing on a personal web page .... not that much.
+I enjoy photography, swimming, sailing, traveling, and many other things. Updating and writing about all of that on a personal web page .... not that much.
 
 
 ### What is that bridge on the top of the site?
