@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "VisualFitsBrowser Version 1.5 Released"
 date: 2017-10-28
 ---
@@ -16,4 +15,4 @@ The new version can be downloaded at [github](https://github.com/drhaz/VisualFit
 
 ~Daniel
 
-![]({{site.baseurl}}/assets/images/VisualFitsBrowser.png)
+![](/assets/images/VisualFitsBrowser.png)

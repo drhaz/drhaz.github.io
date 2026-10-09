@@ -1,0 +1,27 @@
+#!/bin/sh
+# Create a new blog post with today's date.
+# Usage: ./new-post "Title of the post" [--draft]
+#   --draft puts it into _drafts/ (shown by ./serve, not published until moved to _posts/).
+set -e
+[ -z "$1" ] && { echo "Usage: $0 \"Title of the post\" [--draft]"; exit 1; }
+
+title="$1"
+slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | sed -e 's/[^a-z0-9]\{1,\}/-/g' -e 's/^-//' -e 's/-$//')
+if [ "$2" = "--draft" ]; then
+  mkdir -p _drafts
+  file="_drafts/$slug.md"
+else
+  file="_posts/$(date +%Y-%m-%d)-$slug.md"
+fi
+[ -e "$file" ] && { echo "$file already exists"; exit 1; }
+
+cat > "$file" <<POST
+---
+title: "$title"
+date: $(date +%Y-%m-%d)
+tags: []
+comments: false
+---
+
+POST
+echo "Created $file"

@@ -2,3 +2,7 @@ _site
 .sass-cache
 *.bak
 .DS_Store
+.jekyll-cache
+.jekyll-metadata
+Gemfile.lock
+vendor

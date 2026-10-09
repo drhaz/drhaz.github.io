@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Nice spots around Phoenix
 description:  Dining around the greater Phoenix  area
 ---

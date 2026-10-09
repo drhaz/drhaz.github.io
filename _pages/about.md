@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /
+redirect_from: /about
 ---
 
 **Daniel Harbeck, Ph.D.**
@@ -16,14 +17,14 @@ Main Interests: Astronomical instrumentation, observatory operations, data manag
 
 ### Publications:
 
-* Dissertation (2003): <a href="assets/docs/dissertation_harbeck_2003.pdf">Chemical Inhomogeneities in the Old Stellar Populations of the Local Group</a>
+* Dissertation (2003): <a href="/assets/docs/dissertation_harbeck_2003.pdf">Chemical Inhomogeneities in the Old Stellar Populations of the Local Group</a>
 * Papers: Instead of meticulously maintaining a parallel and ever-updating list here, let me link to the [astrophysics data system](https://ui.adsabs.harvard.edu/search/filter_database_fq_database=OR&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=author%3A(%22Harbeck%2C%20D.%22)&sort=date%20desc%2C%20bibcode%20desc&p_=0) which does a better job than I can. 
 
 
 ### Prior Positions:
 
 * Associate Scientist at the [WIYN Observatory](http://www.wiyn.org), in Tucson, AZ (USA)\\
- From 2005 to 2017, as Project and Instrument Scientist,  I took care of the development and operations of the [WIYN](www.wiyn.org) [One Degree Imager System](http://www.wiyn.org/ODI), first as project scientist, and later as project lead managing hardware upgrades, and overseeing software development for the instrument and its data handling infrastructure.
+ From 2005 to 2017, as Project and Instrument Scientist,  I took care of the development and operations of the [WIYN](https://www.wiyn.org) [One Degree Imager System](http://www.wiyn.org/ODI), first as project scientist, and later as project lead managing hardware upgrades, and overseeing software development for the instrument and its data handling infrastructure.
 * Postdoctoral Towns Fellow at the UC Berkeley Space Science Laboratory.
 * Postdoctoral McKinney Fellow at the University of Wisconsin, Madison.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Suppressing pupil ghost and other internal reflections in the WIYN One Degree Imager"
 date: 2016-12-21
 comments: true
@@ -20,11 +19,11 @@ Formation of a pupil ghost in ODI images:
 Reflections of the optical surfaces within [WIYN One Degree Imager (ODI)](http://www.wiyn.org/ODI/index.html) produce internal ghosting, i.e., flat fields[^1] or exposures of the night sky will produce an image of the telescope pupil. Thanks to anti-reflection coatings on the optics, each reflection is suppressed to about about 1%-2% level, depending on the actual wavelength of the light, but the residual light is still capable of producing a significant ghosting component. ODI's dewar window is concave, and paired with the plane surface of the passband filter forms an imaging system that produces a focussed image of the telescope pupil on the focal plane (see Fig. 1, left, for the ghost image formation; see Fig. 2 for an example of an actual raw flat field image of ODI affected by a pupil ghost image). 
 
 
-![ODI pupil ghost formation and suppression cartoon]({{Site.url}}/assets/images/2016/odishutterpupilghostsupression.png){: .center-image}
+![ODI pupil ghost formation and suppression cartoon](/assets/images/2016/odishutterpupilghostsupression.png){: .center-image}
 Fig. 1 - *Formation of the pupil ghost in ODI: a light component entering the instrument from the telescope (from the right) reflects of the concave dewar window, and the converging beam reflects of the filter and will create an in-focus image of the telescope pupil.*
 
 
-![Example of ODI pupil ghost]({{Site.url}}/assets/images/2016/odi_pupilghost_layerII.png){: .center-image}
+![Example of ODI pupil ghost](/assets/images/2016/odi_pupilghost_layerII.png){: .center-image}
 Fig. 2 - *Example of a flat field image taken with ODI in the UV.One can see the different sensitivities of small square image units (cells). Near the center is a donut-like structure that is an image of the telescope pupil. This additional pupil image is undesirable in a calibration image.*
 
 The excess light of the pupil ghost is undesirable for several reasons: In night-sky observations it will produce an extra background component, but it can be subtracted out. More severely, the pupil ghost also produces an extra light component in a calibrating flat field, and if not treated, would lead to a wrong sensitivity calibration in the affected areas. 
@@ -41,7 +40,7 @@ This ghost-suppressing behavior of the shutter has been exploited already by usi
 
 A good demonstration of the pupil ghost suppression by the shutter is to divide a flat field where the shutter is operated conventionally by a flat field where the shutter was operated in the narrow-slit mode. Other than in the raw image of a flat field as in Fig. 1, the sensitivity variations between pixels and detectors should dive out. Only the extra stray light component should remain visible in the image. And voilà, Fig. 3 shows a well-defined ghosting component, demonstrating that we can now generate calibration flat fields that are free of internal reflections. 
 
-![ODI Layer I pupil ghost]({{Site.url}}/assets/images/2016/odi_layeronepg.png){: .center-image}
+![ODI Layer I pupil ghost](/assets/images/2016/odi_layeronepg.png){: .center-image}
 Fig. 3 - *Ratio of a flat field taken with different shutter modes. The sensitivity variations between pixels and detectors cancel out, but the excess ghosting light remains. Note that this ratio shows the ghosting component created by filters that are at a different location than in Fig. 1, and the pupil ghost is largely out of focus.*
 
 

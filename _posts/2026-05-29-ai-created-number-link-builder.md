@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How AI Helped Build a Firefox Extension to Jump from Zendesk Tickets to LCO Observation Pages"
 date: 2026-05-29 12:00:00 -0700
 categories: [engineering, tools]

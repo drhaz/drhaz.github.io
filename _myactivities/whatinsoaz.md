@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Nice spots in Southern Arizona
 description:  Dining and more active activities within reach from Tucson
 ---

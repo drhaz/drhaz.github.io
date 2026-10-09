@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Rose hip Soup"
 date: 2019-12-16
 comments: true

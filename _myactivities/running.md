@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Running around
 description: Summary of my running milestones, only a few races at this time
 ---

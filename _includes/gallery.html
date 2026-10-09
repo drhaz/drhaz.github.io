@@ -1,0 +1,18 @@
+{% comment %}
+  Lightbox gallery of all images in /assets/galleries/<name>/.
+  Each image needs a thumbnail next to it named <image>-150x150.jpg.
+  Optional captions: _data/galleries/<name>.yml, mapping file name to caption, e.g.
+    MG_1532.jpg: Monument Valley at sunset
+  Usage: {% include gallery.html name="animals" %}
+{% endcomment %}
+{%- assign dir = '/assets/galleries/' | append: include.name | append: '/' %}
+{%- assign captions = site.data.galleries[include.name] %}
+{%- assign files = site.static_files | sort: 'path' %}
+<div class="gallery">
+{%- for file in files %}
+  {%- unless file.path contains dir %}{% continue %}{% endunless %}
+  {%- if file.basename contains '-150x150' %}{% continue %}{% endif %}
+  {%- assign thumb = dir | append: file.basename | append: '-150x150' | append: file.extname %}
+  <a class="example-image-link" href="{{ file.path | relative_url }}" data-lightbox="{{ include.name }}"{% if captions[file.name] %} data-title="{{ captions[file.name] | escape }}"{% endif %}><img src="{{ thumb | relative_url }}" alt="{{ captions[file.name] | default: file.basename | escape }}"/></a>
+{%- endfor %}
+</div>

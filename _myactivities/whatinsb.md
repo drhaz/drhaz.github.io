@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Nice spots around Santa Barbara
 description:  What to do around Santa Barbara
 ---

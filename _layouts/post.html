@@ -20,10 +20,9 @@ layout: default
         
         {% endfor %}
        {%- endif -%}
-        | <span class="time">
-            {{ page.content | number_of_words | divided_by:180 }}
-          </span>
-           Minute Read
+        {%- assign minutes = page.content | number_of_words | divided_by: 180 -%}
+        {%- if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+        | <span class="time">{{ minutes }}</span> Minute Read
     </p>
   </header>
   <div class="post-content" itemprop="articleBody">
@@ -38,8 +37,8 @@ layout: default
    </div>
     <hr>
     <div class="post-navigation">
-      {% if page.previous.url %}<a class="prev" href="{{ page.previous.url | prepend: site.baseurl }}">←&nbsp;{{ page.previous.title }}</a>{% endif %}
-      {% if page.next.url %}<a class="next" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}&nbsp;→</a>{% endif %}
+      {% if page.previous.url %}<a class="prev" href="{{ page.previous.url | relative_url }}">←&nbsp;{{ page.previous.title }}</a>{% endif %}
+      {% if page.next.url %}<a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title }}&nbsp;→</a>{% endif %}
     </div>
   </footer>
 </article>

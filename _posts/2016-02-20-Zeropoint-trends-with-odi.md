@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Monitoring Throughput Trends with the One Degree Imager and PPA"
 date: 2016-02-25
 

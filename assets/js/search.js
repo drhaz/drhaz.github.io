@@ -12,6 +12,6 @@ $(function(){
   SimpleJekyllSearch.init({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    dataSource: "{{ site.baseurl }}/search.json",fuzzy: true}
+    dataSource: "{{ "/search.json" | relative_url }}",fuzzy: true}
   );
 });

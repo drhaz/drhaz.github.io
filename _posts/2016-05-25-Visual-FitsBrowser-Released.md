@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "VisualFitsBrowser Released"
 date: 2016-05-25
 ---
@@ -13,4 +12,4 @@ Documentation etc will follow swiftly (or so).
 
 ~Daniel
 
-![]({{site.baseurl}}/assets/images/VisualFitsBrowser.png)
+![](/assets/images/VisualFitsBrowser.png)

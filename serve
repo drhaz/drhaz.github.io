@@ -1,5 +1,10 @@
-docker run --rm \
+#!/bin/sh
+# Serve the site at http://localhost:4000 with the same gems GitHub Pages uses (see Gemfile).
+# Installed gems are cached in the docker volume "drhaz-bundle" between runs.
+docker run --rm -it \
   --volume="$PWD:/srv/jekyll" \
-  -p 4000:4000\
-  -it jekyll/builder:3.8 \
-  jekyll  serve --verbose  --watch --incremental --future --drafts  --livereload --host 0.0.0.0
+  --volume="drhaz-bundle:/usr/local/bundle" \
+  --workdir /srv/jekyll \
+  -p 4000:4000 -p 35729:35729 \
+  ruby:3.3 \
+  sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload --incremental --future --drafts"

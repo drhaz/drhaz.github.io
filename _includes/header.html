@@ -1,14 +1,12 @@
 <header class="site-header">
-    <div class="wrapper" style="background-image: url({{'/assets/images/oregon_bridge.jpg' | prepend: site.baseurl}});
+    <div class="wrapper" style="background-image: url({{ '/assets/images/oregon_bridge.jpg' | relative_url }});
                                 background-position: center bottom;">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> <br>
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a> <br>
         <nav class="site-nav">
             <div class="trigger">
-              <a class="page-link" href="{{  '/about' | prepend: site.baseurl }}">About</a>
-              <a class="page-link" href="{{  '/archive' | prepend: site.baseurl }}">Blog</a>
-              <a class="page-link" href="{{  '/activities' | prepend: site.baseurl }}">My Activities</a>
-              <a class="page-link" href="{{  '/photography' | prepend: site.baseurl }}">Photography</a>
-              
+              {% for item in site.data.navigation %}
+              <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endfor %}
             </div>
         </nav>
     </div>

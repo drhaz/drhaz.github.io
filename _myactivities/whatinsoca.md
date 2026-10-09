@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Nice spots in Southern California
 description:  Dining and more active activities in Southern California
 ---

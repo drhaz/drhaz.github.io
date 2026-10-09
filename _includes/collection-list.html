@@ -1,0 +1,11 @@
+{% comment %}
+  Lists all documents of a collection with title and description.
+  Usage: {% include collection-list.html collection=site.photography %}
+{% endcomment %}
+<ul>
+{% for item in include.collection %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a><br>
+      {{ item.description }}
+  </li>
+{% endfor %}
+</ul>

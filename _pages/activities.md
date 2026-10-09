@@ -6,10 +6,4 @@ permalink: /activities
 
 Some summaries of my private activities.
 
-<ul>
-{% for page in site.myactivities %}
-  <li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a><br>
-      {{ page.description }}
- </li> 
-{% endfor %}
-</ul>
+{% include collection-list.html collection=site.myactivities %}
