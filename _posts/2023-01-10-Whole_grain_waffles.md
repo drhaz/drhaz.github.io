@@ -15,7 +15,7 @@ Ingredients
 
  * 2 eggs
  * juice of 1/2 lemon
- * 3 tablespoon rum
+ * 3 tablespoons rum
  * 90 ml milk
  
  * 125 g whole wheat flour
@@ -24,9 +24,9 @@ Ingredients
 Preparation
 ===
  
-Let the butter be soft, i.e, microwave for a few seconds or remove it from the fridge in time early enough. Mix butter and sugar well. 
+Soften the butter, e.g., by microwaving it for a few seconds or taking it out of the fridge early. Mix butter and sugar well. 
 
  Slowly, each time adding only a bit of liquid, add the 2 eggs, lemon juice, rum, and milk. 
 
- Finally, mix the baking powder into the flour, add to the dough, and mix well. Let sit for a few minutes, and then bake in a waffle iron. 
+ Finally, mix the baking powder into the flour, add to the batter, and mix well. Let sit for a few minutes, and then bake in a waffle iron. 
 

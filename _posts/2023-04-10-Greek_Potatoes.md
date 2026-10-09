@@ -1,5 +1,5 @@
 ---
-title: "Greek Style Potatoes"
+title: "Greek-Style Potatoes"
 date: 2023-04-10
 comments: false
 tags: Cooking
@@ -31,4 +31,4 @@ Preparation
  * Bake in a preheated oven at 180°C for 60–90 minutes, checking occasionally. If the pan looks dry, add a little water.
  * Ten minutes before the end of cooking, pour over the cream and sprinkle with crumbled feta and thyme leaves.
 
-Serve with a fresh green salad. The marinated potatoes take a while to cook, so I recommend 60–90 minutes rather than the shorter 45–60 minute range. If you want to speed things up, briefly microwave the potatoes before baking.
+Serve with a fresh green salad. The marinated potatoes take a while to cook. To speed things up, briefly microwave them before baking.

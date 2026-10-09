@@ -7,8 +7,8 @@ tags: Curious
 
 Back in August I was flying out of Santa Barbara Airport, and right after take-off the plane usually takes a wide turn over the ocean - it is a wonderful view of the Channel Islands.
 
-Interestingly, there was a lot of oil film on the water, better visible to the naked eye than on the picture below that I took with the camera of my cell phone. I was surprised by the extend of oil on the water. 
+Interestingly, there was a lot of oil film on the water, more visible to the naked eye than in the picture below that I took with the camera of my cell phone. I was surprised by the extent of oil on the water. 
 
-A search for natural oil seeps will point to some web pages explaining the origin of the oil film (seemingly a natural occurrence, not human caused), and ideas how oil drilling could actually reduce the pressure on those seeps.  
+A search for natural oil seeps will point to some web pages explaining the origin of the oil film (seemingly a natural occurrence, not human-caused), and ideas on how oil drilling could actually reduce the pressure on those seeps.  
 
 ![](/assets/images/2017/DSC_0363.JPG)
