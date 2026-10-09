@@ -12,21 +12,17 @@
             display: block;
             float: left;
             width: 36px;
-            height: 26px;
-            position: relative;
-            top: 9px;
-            margin-right: 10px;
-            padding-top: 10px;
-            text-align: center;
+            height: 36px;
+            margin: 6px 10px 0 0;
+            padding: 0;
+            border: 0;
+            background: none;
+            cursor: pointer;
 
-                > svg {
-                    width: 18px;
-                    height: 15px;
-
-                    path {
-                        fill: #fff;
-
-                }
+            > svg {
+                width: 18px;
+                height: 15px;
+                fill: #fff;
             }
         }
     }
@@ -83,9 +79,10 @@
             clear: both;
         }
 
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
+        // Hidden until opened, so the off-screen links are not reachable by keyboard
+        visibility: hidden;
+        .exp & {
+            visibility: visible;
         }
 
         .page-link {
