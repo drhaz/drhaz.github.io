@@ -13,6 +13,6 @@
   {%- unless file.path contains dir %}{% continue %}{% endunless %}
   {%- if file.basename contains '-150x150' %}{% continue %}{% endif %}
   {%- assign thumb = dir | append: file.basename | append: '-150x150' | append: file.extname %}
-  <a class="example-image-link" href="{{ file.path | relative_url }}" data-lightbox="{{ include.name }}"{% if captions[file.name] %} data-title="{{ captions[file.name] | escape }}"{% endif %}><img src="{{ thumb | relative_url }}" alt="{{ captions[file.name] | default: file.basename | escape }}"/></a>
+  <a class="example-image-link" href="{{ file.path | relative_url }}" data-lightbox="{{ include.name }}"{% if captions[file.name] %} data-caption="{{ captions[file.name] | escape }}"{% endif %}><img src="{{ thumb | relative_url }}" alt="{{ captions[file.name] | default: file.basename | escape }}"/></a>
 {%- endfor %}
 </div>
