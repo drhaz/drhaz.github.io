@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sailing Race Tracks</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="sailing.css">
+</head>
+<body>
+<div id="map"></div>
+<div id="panel">
+  <h1>Sailing race tracks <a id="home" hidden>Home</a></h1>
+  <div class="lbl">Race</div>
+  <div class="row">
+    <button id="prev" title="Previous (←)">◀</button>
+    <select id="race"></select>
+    <button id="next" title="Next (→)">▶</button>
+  </div>
+  <div class="lbl">Color by</div>
+  <div class="seg" id="mode">
+    <button data-m="solid">Solid</button><button data-m="time">Time</button>
+    <button data-m="speed">Speed</button><button data-m="hr">Heart rate</button>
+  </div>
+  <div id="legend"></div>
+  <div id="summary"></div>
+  <div id="info">Hover over the track for details.</div>
+  <div class="tools"><button id="startsBtn" aria-expanded="false">Start analysis</button></div>
+</div>
+<div id="starts" role="region" aria-label="Start analysis">
+  <header><h2>Start-line crossings</h2><button id="startsClose" aria-label="Close">✕</button></header>
+  <div class="stats" id="startStats"></div>
+  <div class="legend"><span><i style="background:var(--series-1)"></i>All races</span>
+                      <span><i style="background:var(--series-2)"></i>Shown on map</span></div>
+  <div class="hist"><h3>Time after the 16:50 gun (s)</h3><div class="note">10 s bins; end bars: earlier than −60 s / later than +120 s</div><svg id="histTime"></svg></div>
+  <div class="hist"><h3 id="posTitle">Position on the line</h3><div class="note" id="posNote">End bars: crossed outside the marks</div><svg id="histPos"></svg></div>
+</div>
+<div id="tip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="sailing.js"></script>
+</body>
+</html>
