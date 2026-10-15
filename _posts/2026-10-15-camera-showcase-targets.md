@@ -5,7 +5,9 @@ categories: [astronomy, tools]
 tags: [LCO, camera, finding charts, AI]
 ---
 
-A new camera with a 26′ × 26′ field of view and good sensitivity from SDSS u to Y needs some first-light pictures that show what it can do. I put together an interactive list of candidate fields: **[Camera showcase targets](/camera-showcase/)**.
+I am commissioning a new camera for the [Las Cumbres Observatory](https://lco.global) 1-meter network, and part of that is to create beautiful first light images. I (or better: Claude Code upon my request) put together an interactive list of candidate fields so I do not have to go searching myself:
+
+ **[Camera showcase targets](/camera-showcase/)**.
 
 The list has three groups:
 
