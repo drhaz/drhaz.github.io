@@ -69,6 +69,86 @@ const fmtClock = s => { const a = Math.abs(Math.round(s)); return `${s < 0 ? "�
 const nice = d => new Date(d + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 function quantile(sorted, q) { return sorted.length ? sorted[Math.min(sorted.length - 1, Math.floor(q * sorted.length))] : 0; }
 
+// ---- wind ------------------------------------------------------------------
+const WIND = D.wind;   // station info, or null when no wind data was built in
+const COMPASS = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
+const dirName = d => COMPASS[Math.round(d / 22.5) % 16];
+function windAt(t, sec) {   // nearest observation within 6 minutes
+  let best = null;
+  t.w.forEach(o => { if (Math.abs(o[0] - sec) <= 360 && (!best || Math.abs(o[0] - sec) < Math.abs(best[0] - sec))) best = o; });
+  return best;
+}
+function windMean(t, a = 0, b = t.dur) {   // mean speed, vector-mean direction, max gust over [a, b]
+  const os = t.w.filter(o => o[0] >= a - 180 && o[0] <= b + 180);
+  if (!os.length) return null;
+  let x = 0, y = 0;
+  os.forEach(o => { x += Math.sin(o[3] * Math.PI / 180); y += Math.cos(o[3] * Math.PI / 180); });
+  return { kn: os.reduce((s, o) => s + o[1], 0) / os.length / 10, gust: Math.max(...os.map(o => o[2])) / 10,
+           dir: (Math.atan2(x, y) * 180 / Math.PI + 360) % 360 };
+}
+const windText = m => `${m.kn.toFixed(1)} kn from ${dirName(m.dir)} (${Math.round(m.dir)}°)`;
+
+let windCursor = null;   // updates the cursor line on the wind chart
+function drawWindChart(t) {
+  const box = document.getElementById("wind");
+  windCursor = null;
+  if (!t || !t.w.length) { box.innerHTML = ""; return; }
+  const W = 256, H = 112, ml = 22, mr = 4, mt = 18, mb = 18;
+  const x0 = Math.min(-300, t.w[0][0]), x1 = Math.max(t.dur + 300, 600);
+  const top = Math.max(10, Math.ceil(Math.max(...t.w.map(o => o[2])) / 10 / 5) * 5);
+  const X = s => ml + (s - x0) / (x1 - x0) * (W - ml - mr), Y = k => mt + (1 - k / top) * (H - mt - mb);
+  const css = getComputedStyle(document.documentElement), c1 = css.getPropertyValue("--series-1"),
+        grid = css.getPropertyValue("--grid");
+  const ws = t.w.filter(o => o[0] >= x0 && o[0] <= x1);
+  const path = k => ws.map((o, i) => `${i ? "L" : "M"}${X(o[0]).toFixed(1)},${Y(o[k] / 10).toFixed(1)}`).join("");
+  let svg = `<svg viewBox="0 0 ${W} ${H}" id="windSvg">`;
+  for (let v = 0; v <= top; v += 5)
+    svg += `<line x1="${ml}" x2="${W - mr}" y1="${Y(v)}" y2="${Y(v)}" stroke="${grid}"/><text x="${ml - 4}" y="${Y(v) + 3}" text-anchor="end">${v}</text>`;
+  [[0, "start"], [t.dur, t.fin ? "finish" : "end"]].forEach(([s, lab]) =>
+    svg += `<line x1="${X(s)}" x2="${X(s)}" y1="${mt - 2}" y2="${Y(0)}" stroke="currentColor" stroke-opacity=".45" stroke-dasharray="3 3"/>`
+         + `<text x="${X(s)}" y="${H - 5}" text-anchor="middle">${lab}</text>`);
+  svg += `<path d="${path(2)}" fill="none" stroke="${c1}" stroke-width="1.5" stroke-dasharray="4 3" stroke-opacity=".6"/>`
+       + `<path d="${path(1)}" fill="none" stroke="${c1}" stroke-width="2"/>`;
+  // direction arrows along the top, pointing where the wind blows to
+  ws.forEach((o, i) => { if (i % 2) return;
+    svg += `<g transform="translate(${X(o[0])},${mt - 9}) rotate(${o[3] + 180})"><path d="M0,6 L0,-5 M-3,-2 L0,-6 L3,-2" fill="none"
+             stroke="currentColor" stroke-opacity=".6" stroke-width="1.3" stroke-linecap="round"/></g>`; });
+  svg += `<line id="windCur" x1="0" x2="0" y1="${mt - 2}" y2="${Y(0)}" stroke="currentColor" stroke-opacity="0" />`
+       + `<rect id="windHit" x="${ml}" y="0" width="${W - ml - mr}" height="${H}" fill="transparent"/></svg>`;
+  const m = windMean(t);
+  box.innerHTML = `<div class="head"><span><b style="color:var(--fg)">Wind</b> (kn)</span><span><i></i>speed</span>
+    <span><i class="gust"></i>gust</span><span style="margin-left:auto">↑ blowing toward</span></div>${svg}`;
+  const cur = box.querySelector("#windCur"), svgEl = box.querySelector("svg");
+  windCursor = sec => {
+    if (sec == null) { cur.setAttribute("stroke-opacity", 0); return; }
+    cur.setAttribute("x1", X(sec)); cur.setAttribute("x2", X(sec)); cur.setAttribute("stroke-opacity", .7);
+  };
+  box.querySelector("#windHit").onmousemove = e => {
+    const r = svgEl.getBoundingClientRect(), sec = x0 + ((e.clientX - r.left) / r.width * W - ml) / (W - ml - mr) * (x1 - x0);
+    const o = windAt(t, sec);
+    windCursor(o ? o[0] : null);
+    if (!o) return;
+    tip.innerHTML = `<b>${fmtClock(o[0])}</b> from gun<br>${(o[1] / 10).toFixed(1)} kn, gust ${(o[2] / 10).toFixed(1)} kn<br>from ${dirName(o[3])} (${o[3]}°)`;
+    tip.style.display = "block";
+    tip.style.left = Math.min(e.clientX + 12, innerWidth - 250) + "px"; tip.style.top = (e.clientY - 10) + "px";
+  };
+  box.querySelector("#windHit").onmouseleave = () => { tip.style.display = "none"; windCursor(null); };
+}
+
+// Map arrow at the wind station for the shown race's mean wind
+const windArrow = WIND ? L.marker([WIND.lat, WIND.lon], { interactive: true, keyboard: false }) : null;
+function drawWindArrow(t) {
+  if (!windArrow) return;
+  const m = t && windMean(t);
+  if (!m) { map.removeLayer(windArrow); return; }
+  windArrow.setIcon(L.divIcon({ className: "wind-icon", iconSize: [0, 0], html:
+    `<div><svg viewBox="-30 -30 60 60" width="60" height="60"><g transform="rotate(${m.dir + 180})">
+       <path d="M0,24 L0,-16" stroke="#1f5fbf" stroke-width="4" stroke-linecap="round"/>
+       <path d="M-9,-8 L0,-22 L9,-8 Z" fill="#1f5fbf"/></g></svg></div><span>${m.kn.toFixed(0)} kn ${dirName(m.dir)}</span>` }))
+    .bindTooltip(`Mean wind during the race: ${windText(m)}, gusts to ${m.gust.toFixed(0)} kn<br>NOAA ${WIND.id} ${WIND.name} (Stearns Wharf)`)
+    .addTo(map);
+}
+
 // ---- start analysis --------------------------------------------------------
 const [SA, SB] = START_LINE || ["G", "F"];
 const LINE_M = map.distance(MARKS[SA], MARKS[SB]);
@@ -250,7 +330,7 @@ function render(fit) {
   const lg = document.getElementById("legend");
   if (mode === "solid") {
     lg.innerHTML = (single ? "" : `<div id="racelist">${shown.map(t =>
-        `<div class="key" data-id="${t.id}"><span class="sw" style="background:${t.solid}"></span>${nice(t.date)}<span style="margin-left:auto;color:var(--muted)">${t.nm} nm</span></div>`).join("")}</div>`)
+        `<div class="key" data-id="${t.id}"><span class="sw" style="background:${t.solid}"></span>${nice(t.date)}<span style="margin-left:auto;color:var(--muted)">${t.nm} nm${windMean(t) ? ` · ${windMean(t).kn.toFixed(0)} kn ${dirName(windMean(t).dir)}` : ""}</span></div>`).join("")}</div>`)
       + `<div class="key"><span class="sw" style="background:${PRE_GREY}"></span>Pre-start (warning → gun)</div>`;
     lg.querySelectorAll("#racelist .key").forEach(el => el.onclick = () => { sel.value = "t" + el.dataset.id; render(true); });
   } else {
@@ -270,7 +350,8 @@ function render(fit) {
               : `Start line missed: crossed ${posText(t.st.u)} (${fmtStart(t.st.t)})<br>`}
       ${t.st && START_EXCLUDE.includes(t.year) ? `<i>${t.year} is left out of the start analysis</i><br>` : ""}
       ${t.nm} nm in ${fmtDur(t.dur)} · avg ${avgKn.toFixed(1)} kn · max ${Math.max(...sp).toFixed(1)} kn<br>
-      ${hrs.length ? `HR avg ${Math.round(hrs.reduce((a, b) => a + b, 0) / hrs.length)} · max ${Math.max(...hrs)} bpm` : ""}`;
+      ${hrs.length ? `HR avg ${Math.round(hrs.reduce((a, b) => a + b, 0) / hrs.length)} · max ${Math.max(...hrs)} bpm<br>` : ""}
+      ${windMean(t) ? `Wind ${windText(windMean(t))}, gusts to ${windMean(t).gust.toFixed(0)} kn` : WIND ? "No wind data for this day" : ""}`;
   } else {
     const nm = shown.reduce((a, t) => a + t.nm, 0);
     s.innerHTML = `<b>${shown.length} races in ${shown[0].year}</b> · ${Math.round(nm)} nm<br>Click a race in the list to show it alone.`;
@@ -288,6 +369,8 @@ function render(fit) {
       .addTo(trackLayer);
   });
   drawStarts();
+  drawWindChart(single ? shown[0] : null);
+  drawWindArrow(single ? shown[0] : null);
 
   if (fit) {
     const b = L.latLngBounds(shown.flatMap(t => t.ll));
@@ -304,14 +387,17 @@ map.on("mousemove", e => {
     if (d < bd) { bd = d; best = [t, i]; }
   }));
   const info = document.getElementById("info");
-  if (!best) { map.removeLayer(hoverDot); return; }
+  if (!best) { map.removeLayer(hoverDot); if (windCursor) windCursor(null); return; }
   const [t, i] = best;
   hoverDot.setLatLng(t.ll[i]).addTo(map);
+  const wo = windAt(t, t.t[i]);
+  if (windCursor && shown.length === 1) windCursor(t.t[i]);
   const phase = i < t.g ? "pre-start" : "race";
   info.innerHTML = `${shown.length > 1 ? `<b>${nice(t.date)}</b><br>` : ""}<b>${fmtClock(t.t[i])}</b> from gun (${phase})<br>
-    <b>${(t.s[i] / 10).toFixed(1)}</b> kn${t.h[i] ? ` · <b>${t.h[i]}</b> bpm` : ""}`;
+    <b>${(t.s[i] / 10).toFixed(1)}</b> kn${t.h[i] ? ` · <b>${t.h[i]}</b> bpm` : ""}
+    ${wo ? `<br>Wind ${(wo[1] / 10).toFixed(1)} kn from ${dirName(wo[3])} (${wo[3]}°)` : ""}`;
 });
-map.on("mouseout", () => map.removeLayer(hoverDot));
+map.on("mouseout", () => { map.removeLayer(hoverDot); if (windCursor) windCursor(null); });
 map.on("click", e => {
   // In year view, clicking a track shows that race alone.
   if (shown.length < 2) return;
