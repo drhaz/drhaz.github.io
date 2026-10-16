@@ -32,6 +32,16 @@
   #summary, #info { margin-top:10px; padding-top:8px; border-top:1px solid var(--line); }
   #info { color:var(--muted); min-height:2.8em; font-variant-numeric:tabular-nums; }
   #info b, #summary b { color:var(--fg); }
+  #wind { margin-top:8px; }
+  #wind .head { display:flex; gap:10px; color:var(--muted); font-size:11px; align-items:center; }
+  #wind .head i { display:inline-block; width:14px; border-top:2px solid var(--series-1); vertical-align:middle; margin-right:4px; }
+  #wind .head i.gust { border-top-style:dashed; opacity:.6; }
+  #wind svg { width:100%; height:auto; display:block; overflow:visible; }
+  #wind text { fill:var(--muted); font-size:10px; font-variant-numeric:tabular-nums; }
+  .wind-icon { background:none; border:0; }
+  .wind-icon div { position:absolute; left:-30px; top:-30px; width:60px; height:60px; }
+  .wind-icon span { position:absolute; left:34px; top:-6px; white-space:nowrap; background:rgba(255,255,255,.92);
+                    border:1px solid #000; border-radius:3px; padding:0 4px; font:600 11px/1.4 -apple-system,system-ui,sans-serif; color:#000; }
   .mark-label { background:rgba(255,255,255,.85); border:1px solid #000; border-radius:3px; padding:0 4px;
                 font-weight:600; color:#000; box-shadow:none; }
   .mark-label::before { display:none; }
