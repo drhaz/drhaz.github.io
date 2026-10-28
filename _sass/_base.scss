@@ -173,7 +173,7 @@ table {
   tbody{
       tr:nth-child(odd){ 
         td,th{
-            background-color: #f9f9f9;
+            background-color: darken($background-color, 4%);
         }
       }      
   }

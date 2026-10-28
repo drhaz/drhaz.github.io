@@ -45,7 +45,7 @@
 
     &,
     &:visited {
-        color: $background-color;
+        color: $header-text-color;
     }
 }
 .site-nav {
@@ -53,7 +53,7 @@
     line-height: 40px;
 
     .page-link {
-        color: $background-color;
+        color: $header-text-color;
         line-height: $base-line-height;
         font-weight: 700;
 
